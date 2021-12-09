@@ -10,7 +10,6 @@ INSERT INTO animals VALUES (9, 'Squirtl', DATE '1993-04-02', 3, false, 12.13);
 INSERT INTO animals VALUES (10, 'Angemon', DATE '2005-06-12', 1, true, 45);
 INSERT INTO animals VALUES (11, 'Boarmon', DATE '2005-06-07', 7, true, 20.4);
 INSERT INTO animals VALUES (12, 'Blossom', DATE '1998-10-13', 3, true, 17);
-INSERT INTO animals VALUES (8, 'Plantmon', DATE '2022-11-15', 2, true, 5.7);
 
 
 
