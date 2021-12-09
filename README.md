@@ -1,9 +1,6 @@
 # VET CLINIC DATABASE
 
-This application is a demonstration of SQL database creation, manipulation queries skills..
-
-<img src='./src/screenshot.png'>
-
+This application is a demonstration of SQL database creation, adding database entries and search queries skills..
 
 ## Built With
 
@@ -13,8 +10,9 @@ This application is a demonstration of SQL database creation, manipulation queri
 
 To get a local copy up and running follow these simple example steps.
 
-`git clone https://github.com/Rayan84/vet-clinic-databae.git`
-
+- On the terminal run: `git clone https://github.com/Rayan84/vet-clinic-databae.git`.
+- On the terminal run: `cd vet-clinic-database`.
+- On the terminal run the commands you can find in the files data.sql, schema.sql and queries.sql.
 
 ## Authors
 
