@@ -13,3 +13,6 @@ psql -c 'CREATE TABLE animals (
     NEUTERED BOOLEAN NOT NULL,
     WEIGHT_KG DECIMAL,
 );'
+
+ALTER TABLE animals
+ADD species string;
