@@ -13,7 +13,3 @@ INSERT INTO animals VALUES (12, 'Blossom', DATE '1998-10-13', 3, true, 17);
 
 
 
-
-
-
-

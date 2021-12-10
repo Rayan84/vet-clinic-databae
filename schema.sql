@@ -15,4 +15,4 @@ psql -c 'CREATE TABLE animals (
 );'
 
 ALTER TABLE animals
-ADD species string;
+ADD species text;
