@@ -28,16 +28,14 @@ UPDATE animals SET owners_id = 3 WHERE name LIKE 'Plantmon';
 UPDATE animals SET owners_id = 4 WHERE name LIKE ANY (ARRAY['Charmander', 'Squirtle', 'Blossom']);
 UPDATE animals SET owners_id = 5 WHERE name LIKE ANY (ARRAY['Angemon', 'Boarmon']);
 
-INSERT INTO vets VALUES (DEFAULT, 'Tatcher', 45, '2000-04-23');
+INSERT INTO vets VALUES (DEFAULT, 'William Tatcher', 45, '2000-04-23');
 INSERT INTO vets VALUES (DEFAULT, 'Maisy Smith', 26, '2019-01-17');
 INSERT INTO vets VALUES (DEFAULT, 'Stephanie Mendez', 64, '1981-05-04');
 INSERT INTO vets VALUES (DEFAULT, 'Jack Harkness', 38, '2008-06-08');
-
 INSERT INTO specializations VALUES (DEFAULT, 1, 1);
 INSERT INTO specializations VALUES (DEFAULT, 3, 2);
 INSERT INTO specializations VALUES (DEFAULT, 3, 1);
 INSERT INTO specializations VALUES (DEFAULT, 4, 2);
-
 INSERT INTO visits VALUES (DEFAULT, 1, 1, '2020-05-24');
 INSERT INTO visits VALUES (DEFAULT, 1, 3, '2020-07-22');
 INSERT INTO visits VALUES (DEFAULT, 2, 4, '2021-02-02');
