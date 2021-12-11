@@ -12,7 +12,7 @@ To get a local copy up and running follow these simple example steps.
 
 - On the terminal run: `git clone https://github.com/Rayan84/vet-clinic-databae.git`.
 - On the terminal run: `cd vet-clinic-database`.
-- On the terminal run the commands you can find in the files data.sql, schema.sql and queries.sql.
+- On the terminal run the commands you can find in the files: schema.sql, data.sql and queries.sql.
 
 ## Authors
 
