@@ -41,3 +41,16 @@ psql -c 'CREATE TABLE vets (
     AGE INT,
     DATE_OF_GRADUATION DATE
 );'
+
+psql -c 'CREATE TABLE specializations (
+    ID SERIAL PRIMARY KEY NOT NULL,
+    VET INT REFERENCES vets (id),
+    SPECIALIZATION INT REFERENCES species (id)
+);'
+
+psql -c 'CREATE TABLE visits (
+    ID SERIAL PRIMARY KEY NOT NULL,
+    ANIMAL INT REFERENCES animals (id),
+    VET INT REFERENCES vets (id),
+    DATE_OF_VISIT DATE
+);'
