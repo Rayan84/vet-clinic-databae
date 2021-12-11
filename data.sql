@@ -11,5 +11,20 @@ INSERT INTO animals VALUES (10, 'Angemon', DATE '2005-06-12', 1, true, 45);
 INSERT INTO animals VALUES (11, 'Boarmon', DATE '2005-06-07', 7, true, 20.4);
 INSERT INTO animals VALUES (12, 'Blossom', DATE '1998-10-13', 3, true, 17);
 
+INSERT INTO owners VALUES (DEFAULT, 'Sam Smith', 34);
+INSERT INTO owners VALUES (DEFAULT, 'Jennifer Orwell, 19');
+INSERT INTO owners VALUES (DEFAULT, 'Bob', 45);
+INSERT INTO owners VALUES (DEFAULT, 'Melody Pond', 77);
+INSERT INTO owners VALUES (DEFAULT, 'Dean Winchester', 14);
+INSERT INTO owners VALUES (DEFAULT, 'Jodie Whittaker', 38);
 
+INSERT INTO species VALUES (DEFAULT, 'Pokemon');
+INSERT INTO species VALUES (DEFAULT, 'Digimon');
 
+UPDATE animals SET species_id = 2 WHERE name LIKE '%mon';
+UPDATE animals SET species_id = 1 WHERE name NOT LIKE '%mon';
+UPDATE animals SET owners_id = 1 WHERE name LIKE 'Agumon';
+UPDATE animals SET owners_id = 2 WHERE name LIKE 'Pikachu';
+UPDATE animals SET owners_id = 3 WHERE name LIKE 'Plantmon';
+UPDATE animals SET owners_id = 4 WHERE name LIKE ANY (ARRAY['Charmander', 'Squirtle', 'Blossom']);
+UPDATE animals SET owners_id = 5 WHERE name LIKE ANY (ARRAY['Angemon', 'Boarmon']);
